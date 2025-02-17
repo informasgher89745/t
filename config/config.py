@@ -18,22 +18,22 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = "21064438"
+API_HASH = "052d2f50aac2fe3e1d3047be2ec38f31"
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+BOT_TOKEN = "7915919497:AAGDQM_dHjL487bx62ELrpTnwVkwU1-NGoU"
+
+MONGO_DB_URI = "mongodb+srv://cobratgking:bldJyMacHWi0j1Lq@cobraking.hu2ay.mongodb.net"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = "-1002178243149"
+MUSIC_BOT_NAME = "𝗦𝗲𝗹𝘅 𝗠𝘂𝘀𝗶𝗰"
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
-
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = "6397654988"
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
@@ -86,10 +86,10 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-COOKIES = getenv("COOKIES", None)
+COOKIES = "https://pastebin.com/raw/9ujxX6Sm"
 # https://batbin.me
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "BQFBavYAB5KwZ0DUTGIZEGsfxpdk9p3K9obaDDLDzJX5NXsB4zbO6Q9rIa6q9hiCcjIVC5X4J4iXF-btRrOrQoOlK3GrWIeXc5O1Y0ZINahX2UUvlnC4K-2yqPIdPHLtAkJ-Jc4HNY1HkUnOPlbC0FIZP5wQBJ5hnd8mI5CpcTMsbqK6SIzGDII618hK0Q2kJTXRBsiO3NZMYpMmh9I2wrUbfQF4IzNGGlwctjIuJg6cWSJRx8BPrenmqof32sCllo2K3QrSdhvPsT4K_JV_qKvYh0YSST-YSfADt5RfronaUYsoqmyo3kD30icijsrHPiB7DWINB7YZ3IpMjMRh9rf4JrQccwAAAAHI_HwOAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
